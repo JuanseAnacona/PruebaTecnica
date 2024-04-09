@@ -140,11 +140,3 @@ REST_FRAMEWORK = {
     ...: ...,
     "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
 }
-
-
-EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST="smtp.gmail.com"
-EMAIL_ISE_TLS=True
-EMAIL_PORT=587
-EMAIL_HOTS_USER="juananaconar@gmail.com"
-EMAIL_HOST_PASSWORK="juansebastNIC14212050"
